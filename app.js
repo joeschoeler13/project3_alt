@@ -90,7 +90,7 @@ function initDBConnection() {
 
 initDBConnection();
 
-app.get('/app', routes.app);
+app.get('/aboutus', routes.aboutus);
 app.get('/convinced', routes.convinced);
 app.get('/index', routes.index);
 app.get('/process', routes.process);

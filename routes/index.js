@@ -3,8 +3,8 @@
  * GET home page.
  */
 
-exports.app = function(req, res){
-  res.render('app.html', { title: 'Cloudant Boiler Plate' });
+exports.aboutus = function(req, res){
+  res.render('aboutus.html', { title: 'Cloudant Boiler Plate' });
 };
 
 exports.convinced = function(req, res){
