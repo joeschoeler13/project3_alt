@@ -96,8 +96,6 @@ app.get('/index', routes.index);
 app.get('/process', routes.process);
 app.get('/references', routes.references);
 app.get('/welcome', routes.welcome);
-app.get('/login', routes.login);
-app.get('/arcsbase', routes.arcsbase);
 
 function createResponseData(id, name, value, attachments) {
 
