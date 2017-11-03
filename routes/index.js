@@ -1,8 +1,3 @@
-
-/*
- * GET home page.
- */
-
 exports.aboutus = function(req, res){
   res.render('aboutus.html', { title: 'Cloudant Boiler Plate' });
 };
@@ -25,4 +20,12 @@ exports.references = function(req, res){
 
 exports.welcome = function(req, res){
   res.render('welcome.html', { title: 'Cloudant Boiler Plate' });
+};
+
+exports.login = function(req, res){
+  res.render('login.php', { title: 'Cloudant Boiler Plate' });
+};
+
+exports.arcsbase = function(req, res){
+  res.render('arcsbase.php', { title: 'Cloudant Boiler Plate' });
 };
