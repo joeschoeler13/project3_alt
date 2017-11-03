@@ -1,8 +1,13 @@
-@import url(https://bootswatch.com/cosmo/bootstrap.min.css);
+
 
 /* START: General*/
 body {
     font-family: Arial;
+    color: rgb(80, 80, 80)
+}
+
+h1{
+    font-weight: lighter;
 }
 
 .fa { 
@@ -36,6 +41,7 @@ body {
 #navbar1 {
     overflow: hidden;
     background-color: #333;
+    border-radius: 0;
     z-index: 99;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
     opacity: 0.9;
