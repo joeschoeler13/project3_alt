@@ -71,6 +71,7 @@ body {
   #name {
     display: none;
     text-align: center;
+    font-weight: lighter;
   }
 
   h1 {
