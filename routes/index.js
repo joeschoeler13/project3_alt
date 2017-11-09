@@ -26,11 +26,3 @@ exports.references = function(req, res){
 exports.welcome = function(req, res){
   res.render('welcome.html', { title: 'Cloudant Boiler Plate' });
 };
-
-exports.login = function(req, res){
-  res.render('login.php', { title: 'Cloudant Boiler Plate' });
-};
-
-exports.dbarcs = function(req, res){
-  res.render('dbarcs.php', { title: 'Cloudant Boiler Plate' });
-};
